@@ -1,0 +1,6 @@
+.board {
+    width: 80vw;
+    height: 100vh;
+    background-color: whitesmoke;
+    border: 1px solid black;
+}

@@ -1,0 +1,32 @@
+.entity-container {
+    position: absolute;
+    border: 0.15rem solid black;
+    border-radius: 0.5rem;
+
+    background-color: #e6dde5;
+}
+
+hr {
+    height: 0.1rem;
+    background-color: black;
+    border: none;
+}
+
+.name {
+    padding: 1rem;
+    font-size: 1.1rem;
+    text-align: center;
+
+    /* background-color: yellow; */
+}
+
+.properties {
+    padding: 1rem;
+    list-style-type: none;
+
+    /* background-color: aqua; */
+}
+
+.property {
+    margin-bottom: 0.2rem;
+}

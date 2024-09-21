@@ -1,0 +1,14 @@
+<div
+    (mousedown)="enableDrag($event)"
+    [ngStyle]="{ top: location.y + 'px', left: location.x + 'px' }"
+    class="entity-container">
+    <div class="name">
+        <b>{{ name }}</b>
+    </div>
+    <hr>
+    <ul class="properties">
+        <li *ngFor="let property of properties" class="property">
+            {{ property.name }}: <i>{{ property.type }}</i>
+        </li>
+    </ul>
+</div>

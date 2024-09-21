@@ -1,0 +1,11 @@
+<div 
+    (mousemove)="onDrag($event)"
+    (mouseup)="endDrag($event)"
+    class="board">
+    <app-entity 
+        [location]="ceLocation"
+        (dragEnabled)="onDragEnabled($event)"
+        (ieLocation)="onIeLocation($event)"
+        (eOffset)="onEOffset($event)"
+    ></app-entity>
+</div>
